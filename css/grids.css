@@ -1,0 +1,123 @@
+/*
+	Box Sizing Grid System (Fluid Version).
+	Learn more ~ http://www.initstudio.com
+	Based on 960 Grid System - http://960.gs
+*/
+
+*, *:before, *:after { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; text-rendering:optimizeLegibility; -webkit-text-rendering:optimizeLegibility; -moz-text-rendering:optimizeLegibility; }
+
+.boxgrid { clear:both; width:100%; }
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	float: left;
+	display: inline;
+	padding:0 10px;
+	position:relative;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) { 
+	.boxgrid .grid_1 { width:  25%; }
+	.boxgrid .grid_2 { width:  50%; }
+	.boxgrid .grid_3 { width:  75%; }
+	.boxgrid .grid_4 { width:  100%; }
+	.boxgrid .grid_5 { width:  100%; }
+	.boxgrid .grid_6 { width:  100%; }
+	.boxgrid .grid_7 { width:  100%; }
+	.boxgrid .grid_8 { width:  100%; }
+	.boxgrid .grid_9 { width:  100%; }
+	.boxgrid .grid_10 { width: 100%; }
+	.boxgrid .grid_11 { width: 100%; }
+	.boxgrid .grid_12 { width: 100%; }
+}
+@media only screen and (min-width: 769px) { 
+	.boxgrid .grid_1 { width:   8.333%; }
+	.boxgrid .grid_2 { width:  16.667%; }
+	.boxgrid .grid_3 { width:  25.000%; }
+	.boxgrid .grid_4 { width:  33.333%; }
+	.boxgrid .grid_5 { width:  41.667%; }
+	.boxgrid .grid_6 { width:  50.000%; }
+	.boxgrid .grid_7 { width:  58.333%; }
+	.boxgrid .grid_8 { width:  64.667%; }
+	.boxgrid .grid_9 { width:  75.000%; }
+	.boxgrid .grid_10 { width: 83.333%; }
+	.boxgrid .grid_11 { width: 91.667%; }
+	.boxgrid .grid_12 { width: 100%; }
+	
+	.boxgrid .grid_1 { width:   8.333%; }
+	.boxgrid .grid_2 { width:  16.667%; }
+	.boxgrid .grid_3 { width:  25.000%; }
+	.boxgrid .grid_4 { width:  33.333%; }
+	.boxgrid .grid_5 { width:  41.667%; }
+	.boxgrid .grid_6 { width:  50.000%; }
+	.boxgrid .grid_7 { width:  58.333%; }
+	.boxgrid .grid_8 { width:  64.667%; }
+	.boxgrid .grid_9 { width:  75.000%; }
+	.boxgrid .grid_10 { width: 83.333%; }
+	.boxgrid .grid_11 { width: 91.667%; }
+	.boxgrid .grid_12 { width: 100%; }
+
+	.boxgrid .prefix_1 { margin-left:8.333%; }
+	.boxgrid .prefix_2 { margin-left:16.667%; }
+	.boxgrid .prefix_3 { margin-left:25.000%; }
+	.boxgrid .prefix_4 { margin-left:33.333%; }
+	.boxgrid .prefix_5 { margin-left:41.667%; }
+	.boxgrid .prefix_6 { margin-left:50.000%; }
+	.boxgrid .prefix_7 { margin-left:58.333%; }
+	.boxgrid .prefix_8 { margin-left:64.667%; }
+	.boxgrid .prefix_9 { margin-left:75.000%; }
+	.boxgrid .prefix_10 { margin-left:83.333%; }
+	.boxgrid .prefix_11 { margin-left:91.667%; }
+
+	.boxgrid .suffix_1 { margin-right:8.333%; }
+	.boxgrid .suffix_2 { margin-right:16.667%; }
+	.boxgrid .suffix_3 { margin-right:25.000%; }
+	.boxgrid .suffix_4 { margin-right:33.333%; }
+	.boxgrid .suffix_5 { margin-right:41.667%; }
+	.boxgrid .suffix_6 { margin-right:50.000%; }
+	.boxgrid .suffix_7 { margin-right:58.333%; }
+	.boxgrid .suffix_8 { margin-right:64.667%; }
+	.boxgrid .suffix_9 { margin-right:75.000%; }
+	.boxgrid .suffix_10 { margin-right:83.333%; }
+	.boxgrid .suffix_11 { margin-right:91.667%; }
+
+	.boxgrid .push_1 { left:8.333%; }
+	.boxgrid .push_2 { left:16.667%; }
+	.boxgrid .push_3 { left:25.000%; }
+	.boxgrid .push_4 { left:33.333%; }
+	.boxgrid .push_5 { left:41.667%; }
+	.boxgrid .push_6 { left:50.000%; }
+	.boxgrid .push_7 { left:58.333%; }
+	.boxgrid .push_8 { left:64.667%; }
+	.boxgrid .push_9 { left:75.000%; }
+	.boxgrid .push_10 { left:83.333%; }
+	.boxgrid .push_11 { left:91.667%; }
+
+	.boxgrid .pull_1 { left:-8.333%; }
+	.boxgrid .pull_2 { left:-16.667%; }
+	.boxgrid .pull_3 { left:-25.000%; }
+	.boxgrid .pull_4 { left:-33.333%; }
+	.boxgrid .pull_5 { left:-41.667%; }
+	.boxgrid .pull_6 { left:-50.000%; }
+	.boxgrid .pull_7 { left:-58.333%; }
+	.boxgrid .pull_8 { left:-64.667%; }
+	.boxgrid .pull_9 { left:-75.000%; }
+	.boxgrid .pull_10 { left:-83.333%; }
+	.boxgrid .pull_11 { left:-91.667%; }
+}
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.clearfix:after{clear:both;content:'';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0;}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
